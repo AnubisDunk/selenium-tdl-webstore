@@ -8,5 +8,6 @@ namespace SeleniumTests.Pages
         private readonly IWebDriver driver = driver;
 
         IWebElement Container => driver.FindByTestId("product-list");
+        
     }
 }
